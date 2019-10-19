@@ -1,0 +1,2 @@
+# pysimpledns
+Simple DNS Service
