@@ -1,5 +1,4 @@
 import socket
-import glob
 import json
 from utils import getflags, getzone
 

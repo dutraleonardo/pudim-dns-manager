@@ -1,3 +1,6 @@
+import glob
+import json
+
 def load_zones():
 
     json_zone = {}
@@ -7,7 +10,7 @@ def load_zones():
         with open(zone) as zone_data:
             data = json.load(zone_data)
             zonename = data["$origin"]
-            jsonzone[zonename] = data
+            json_zone[zonename] = data
     return json_zone
 
 zonedata = load_zones()
